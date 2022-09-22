@@ -132,6 +132,7 @@ body {
 
 .sidebar_photo {
     height: 353px;
+    box-sizing: border-box;
 }
 
 .contact-section,
