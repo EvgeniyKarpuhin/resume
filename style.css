@@ -129,7 +129,9 @@ body {
     width: 265px;
 }
 
-
+.sidebar-photo {
+    height: 353px;
+}
 
 .contact-section,
 .tech-skills-section {
