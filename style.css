@@ -5,6 +5,7 @@ body {
 
 .main-container {
     display: flex;
+    justify-content: center;
     flex-direction: row-reverse;
     width: 1200px;
     background: white;
@@ -165,7 +166,7 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #fff;
+    color: rgb(153, 152, 152);
     text-decoration: none;
 }
 
