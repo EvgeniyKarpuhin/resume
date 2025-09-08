@@ -58,10 +58,6 @@ body {
     color: black;
 }
 
-.my-projects-number::marker {
-    text-align: center;
-}
-
 .my-projects-site {
     color: #595959;
     font-style: normal;
