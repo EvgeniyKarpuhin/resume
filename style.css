@@ -1,6 +1,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background: #E5E5E5;
+    color: rgb(207, 207, 207);
+}
+
+h4, b {
+    font-weight: bold;
+    color: white;
 }
 
 .main-container {
@@ -8,13 +13,15 @@ body {
     justify-content: center;
     flex-direction: row-reverse;
     width: 1200px;
-    background: white;
+    background: #192230;
     margin: 40px auto;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 2%;
+    overflow: hidden;
 }
 
 .main-content {
-    padding: 100px 90px;
+    padding: 50px 90px;
 }
 
 .about-me-profession {
@@ -22,27 +29,16 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
-    color: black;
     margin-bottom: 20px;
 }
 
 .about-me-name {
     font-style: normal;
     font-weight: bold;
+    color: white;
     font-size: 45px;
     line-height: 55px;
     margin-bottom: 25px;
-    color: black;
-}
-
-.about-me-description {
-    width: 400px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-    margin-bottom: 35px;
 }
 
 .my-projects {
@@ -126,21 +122,14 @@ body {
 
 .sidebar {
     background: #1E2939;
-    padding: 40px 0;
-    width: 265px;
 }
 
 .sidebar_photo {
     height: 353px;
 }
 
-.contact-section,
-.tech-skills-section {
-    margin: 50px 0 0 40px;
-}
-
-.soft-skills-section {
-    margin: 45px 0 0 40px;
+.sidebar-content {
+    padding:0 40px;
 }
 
 .title {
@@ -197,7 +186,7 @@ body {
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
-    color: black;
+    color: white;
     margin-bottom: 10px;
 }
 
